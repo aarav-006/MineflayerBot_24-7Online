@@ -6,8 +6,9 @@ const port = process.env.PORT || 3000;
 
 // Create bot
 const bot = mineflayer.createBot({
-  host: "mc.example.com", // Replace with your Minecraft server IP
-  username: "BotName" // Replace with your bot username
+  host: "mcbuddysmp.falixsrv.me", // Replace with your Minecraft server IP
+  username: "BotName",
+  port: 37092// Replace with your bot username
 });
 
 bot.on("spawn", () => {
